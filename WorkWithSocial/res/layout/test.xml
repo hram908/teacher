@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:orientation="vertical"
+              android:layout_height="fill_parent">
+    <!--<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="click" android:onClick="clickRotateFlat"/>-->
+    <!--<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="click3" android:onClick="clickRotateFlat2"/>-->
+    <!--<RelativeLayout  android:layout_margin="40dp" android:layout_height="50dp" android:background="#FFFFFF" android:layout_width="50dp">-->
+         <!--<LinearLayout android:id="@+id/ll_flat_rotate" android:background="#FFAACC" android:layout_height="50dp" android:layout_width="fill_parent"/>-->
+        <!--<TextView android:id="@+id/tv_test" android:textSize="50dp" android:textColor="#FF11FF" android:text="1" android:layout_height="fill_parent" android:layout_width="fill_parent"/>-->
+    <!--</RelativeLayout>-->
+    <TableLayout android:id="@+id/tb_field" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1">
+        <!--<TableRow>-->
+            <!--<RelativeLayout android:layout_height="50dp"  android:layout_width="50dp" android:layout_margin="5px" android:background="#FFFFFF"/>-->
+            <!--<RelativeLayout android:layout_height="50dp"  android:layout_width="50dp" android:layout_margin="5px"  android:background="#FFFFFF"/>-->
+            <!--<RelativeLayout android:layout_height="50dp"  android:layout_width="50dp" android:layout_margin="5px"  android:background="#FFFFFF"/>-->
+        <!--</TableRow>-->
+        <!--<TableRow>-->
+            <!--<RelativeLayout android:layout_height="50dp"  android:layout_width="50dp" android:layout_margin="5px" android:background="#FFFFFF"/>-->
+            <!--<RelativeLayout android:layout_height="50dp"  android:layout_width="50dp" android:layout_margin="5px"  android:background="#FFFFFF"/>-->
+            <!--<RelativeLayout android:layout_height="50dp"  android:layout_width="50dp" android:layout_margin="5px"  android:background="#FFFFFF"/>-->
+        <!--</TableRow>-->
+        <!--<TableRow>-->
+            <!--<RelativeLayout android:layout_height="50dp"  android:layout_width="50dp" android:layout_margin="5px" android:background="#FFFFFF"/>-->
+            <!--<RelativeLayout android:layout_height="50dp"  android:layout_width="50dp" android:layout_margin="5px"  android:background="#FFFFFF"/>-->
+            <!--<RelativeLayout android:layout_height="50dp"  android:layout_width="50dp" android:layout_margin="5px"  android:background="#FFFFFF"/>-->
+        <!--</TableRow>-->
+    </TableLayout>
+
+    <LinearLayout android:id="@+id/ll_answers" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentBottom="true">
+        <!--<RelativeLayout android:layout_height="50dp"  android:layout_width="50dp" android:layout_margin="5px" android:background="#FFFFFF"/>-->
+        <!--<RelativeLayout android:layout_height="50dp"  android:layout_width="50dp" android:layout_margin="5px" android:background="#FFFFFF"/>-->
+        <!--<RelativeLayout android:layout_height="50dp"  android:layout_width="50dp" android:layout_margin="5px" android:background="#FFFFFF"/>-->
+        <!--<RelativeLayout android:layout_height="50dp"  android:layout_width="50dp" android:layout_margin="5px" android:background="#FFFFFF"/>-->
+        <!--<RelativeLayout android:layout_height="50dp"  android:layout_width="50dp" android:layout_margin="5px" android:background="#FFFFFF"/>-->
+        <!--<RelativeLayout android:layout_height="50dp"  android:layout_width="50dp" android:layout_margin="5px" android:background="#FFFFFF"/>-->
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/ll_error" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_marginRight="50dp" android:layout_marginTop="10dp">
+        <!--<View android:layout_width="4dp" android:layout_height="50dp" android:background="#FF0000" android:layout_margin="7px"/>-->
+        <!--<View android:layout_width="4dp" android:layout_height="50dp" android:background="#FF0000" android:layout_margin="7px"/>-->
+        <!--<View android:layout_width="4dp" android:layout_height="50dp" android:background="#FF0000" android:layout_margin="7px"/>-->
+    </LinearLayout>
+
+</RelativeLayout>

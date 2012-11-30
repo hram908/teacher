@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <LinearLayout android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginBottom="20dp"
+                  android:id="@+id/llSocial"
+                  android:layout_alignParentBottom="true">
+        <Button android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_margin="4dp"
+                android:onClick="clickInfo"
+                android:background="@drawable/button_ac_main_teach_screen_settings_info"
+                />
+        <Button android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_margin="4dp"
+                android:onClick="clickVkGroup"
+                android:background="@drawable/button_ac_main_teach_screen_settings_vk"
+                />
+        <Button android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_margin="4dp"
+                android:onClick="clickFbGroup"
+                android:background="@drawable/button_ac_main_teach_screen_settings_fb"
+                />
+                  </LinearLayout>
+    <Button android:layout_height="wrap_content"
+            android:id="@+id/btnPresent"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="clickPresent"
+            android:layout_width="wrap_content"
+            android:layout_above="@+id/llSocial"
+            android:background="@drawable/button_ac_main_teach_screen_settings_post_card"
+            />
+
+    <Button android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:layout_marginRight="50dip"
+            android:singleLine="false"
+            android:layout_above="@+id/btnPresent"
+            android:drawableLeft="@drawable/button_ac_main_teach_screen_settings_settings"
+            android:text=" Настройки "
+            android:textColor="#6d5105"
+            android:id="@+id/AcMainScreenSettings_textSettings"
+            android:background="@drawable/button_setting"
+            android:onClick="clickSetting"
+
+            />
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:id="@+id/AcScreenRlLL"
+                android:background="@drawable/im_ac_setting_background"
+                android:layout_height="fill_parent">
+    <Button android:background="@drawable/button_ac_settings_back"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:onClick="clickBack"/>
+    <ImageView android:id="@+id/AcSettingHeader"
+               android:layout_height="wrap_content" android:layout_width="wrap_content"
+               android:src="@drawable/im_ac_setting_header"
+               android:layout_marginTop="50dp"
+               android:layout_centerHorizontal="true"
+            />
+    <TableLayout android:layout_below="@id/AcSettingHeader"
+                 android:layout_height="wrap_content"
+                 android:padding="20dp"
+                 android:layout_marginTop="40dp"
+                 android:layout_centerHorizontal="true"
+                 android:layout_width="wrap_content" android:background="@drawable/button_setting"
+                 android:id="@+id/AcSettingTable">
+        <TableRow>
+            <TextView android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+                      android:layout_width="wrap_content"
+                      android:text="Выберите цвет \n фона доски"
+                      android:textColor="#6d5105"
+                      android:textSize="25dp"
+                      android:id="@+id/AcSettingsColorDesk"
+
+                    />
+            <RadioGroup android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:checkedButton="@+id/ac_settings_desk1">
+                <RadioButton android:layout_height="50px"
+                             android:layout_width="70px"
+                             android:id="@+id/ac_settings_desk1"
+                             android:button="@drawable/radiobutton_desk_yellow"/>
+                <RadioButton android:layout_height="50px"
+                             android:layout_width="70px"
+                             android:id="@+id/ac_settings_desk2"
+                             android:button="@drawable/radiobutton_desk_green"/>
+                <RadioButton android:layout_height="50px"
+                             android:layout_width="70px"
+                             android:id="@+id/ac_settings_desk3"
+                             android:button="@drawable/radiobutton_desk_red"/>
+                <RadioButton android:layout_height="50px"
+                             android:layout_width="70px"
+                             android:id="@+id/ac_settings_desk4"
+                             android:button="@drawable/radiobutton_desk_blue"/>
+                <RadioButton android:layout_height="50px"
+                             android:layout_width="70px"
+                             android:id="@+id/ac_settings_desk5"
+                             android:button="@drawable/radiobutton_desk_violet"/>
+            </RadioGroup>
+        </TableRow>
+        <TableRow android:layout_marginTop="70dp">
+            <TextView android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+                      android:layout_width="wrap_content"
+                      android:text="Выберите ваше имя     "
+                      android:textColor="#6d5105"
+                      android:textSize="25dp"
+                      android:id="@+id/AcSettingsChooseYourName"/>
+            <EditText android:id="@+id/AcSettingsName" android:textColor="#6d5105" android:textColorHint="#6d5105" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20dp"/>
+
+        </TableRow>
+        <TableRow android:layout_marginTop="70dp">
+            <TextView android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+                      android:layout_width="wrap_content"
+                      android:text="Войти через"
+                      android:textColor="#6d5105"
+                      android:textSize="25dp"
+                      android:id="@+id/AcSettingsEnterIn"/>
+            <LinearLayout android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+                          android:orientation="horizontal" android:layout_width="wrap_content">
+                <Button android:layout_height="wrap_content" android:layout_marginRight="15dp"
+                        android:layout_width="wrap_content" android:background="@drawable/button_ac_settings_fb"
+                        android:onClick="clickEnterFb"/>
+                <Button android:layout_height="wrap_content" android:layout_marginLeft="15dp"
+                        android:layout_width="wrap_content" android:background="@drawable/button_ac_settings_vk"
+                        android:onClick="clickEnterVk"/>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/AcSettingTable"
+            android:layout_marginTop="30dp"
+            android:text="Для родителей"
+            android:id="@+id/AcSettingsForParents"
+            android:textColor="#fffcf6"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="clickGoInParentSetting"
+            android:background="@drawable/button_ac_settings_parent"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_above="@+id/AcSettingBottomVV"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="Сброс игры"
+            android:textSize="20dp"
+            android:textColor="#fffcf6"
+            android:id="@+id/AcSettingsResetGame"
+            android:onClick="clickResetSettings"
+            android:background="@drawable/button_ac_settings_reset_settings"/>
+    <View android:layout_width="1px"
+          android:layout_height="1px"
+          android:layout_alignParentBottom="true"
+          android:id="@+id/AcSettingBottomVV"/>
+
+
+</RelativeLayout>

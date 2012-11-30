@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/im_ac_info_bg">
+    <Button android:background="@drawable/button_ac_settings_back"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:onClick="clickBack"/>
+    <ImageView android:layout_height="wrap_content"
+               android:layout_centerHorizontal="true"
+               android:layout_width="wrap_content"
+               android:layout_marginTop="10dp"
+               android:src="@drawable/im_ac_main_teach_screen_header"/>
+    <ImageView android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_centerHorizontal="true"
+               android:layout_width="wrap_content"
+               android:layout_marginBottom="5dp"
+               android:src="@drawable/im_ac_info_nuance"
+            android:onClick="clickNuance"/>
+    <TextView
+            android:id="@+id/ac_info_text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Инфо"
+            android:textSize="20dp"
+            android:textColor="#858208"
+            android:layout_centerInParent="true"
+            />
+
+</RelativeLayout>

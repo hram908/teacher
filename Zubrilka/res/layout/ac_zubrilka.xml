@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/im_ac_zubrilka_background">
+    <com.zubrilka.ViewFlow
+            android:id="@+id/ac_zubrilka_viewflow"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    </com.zubrilka.ViewFlow>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentRight="true"
+                  android:orientation="vertical">
+            <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_exit"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="clickEsc"
+                    />
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentTop="true"
+                  android:layout_centerHorizontal="true"
+                  android:paddingTop="30dp"
+                  android:id="@+id/ac_zubrilka_ll_lessons">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 1 "
+                android:textSize="17sp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/ac_zubrilka_lesson_1"
+                android:textColor="@color/white"
+                android:background="@drawable/lesson_bg_checked"
+                android:tag="0"
+
+                />
+        <TextView
+                android:background="@drawable/lesson_bg"
+                android:tag="1"
+                android:textColor="@color/color_numbers"
+                android:id="@+id/ac_zubrilka_lesson_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 2 "
+                android:layout_marginRight="10dp"
+                android:textSize="17sp"/>
+        <TextView
+                android:background="@drawable/lesson_bg"
+                android:tag="2"
+                android:textColor="@color/color_numbers"
+                android:id="@+id/ac_zubrilka_lesson_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 3 "
+                android:layout_marginRight="10dp"
+                android:textSize="17sp"/>
+        <TextView
+                android:background="@drawable/lesson_bg"
+                android:tag="3"
+                android:textColor="@color/color_numbers"
+                android:id="@+id/ac_zubrilka_lesson_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 4 "
+                android:layout_marginRight="10dp"
+                android:textSize="17sp"/>
+        <TextView
+                android:background="@drawable/lesson_bg"
+                android:tag="4"
+                android:textColor="@color/color_numbers"
+                android:id="@+id/ac_zubrilka_lesson_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 5 "
+                android:layout_marginRight="10dp"
+                android:textSize="17sp"/>
+        <TextView
+                android:background="@drawable/lesson_bg"
+                android:tag="5"
+                android:textColor="@color/color_numbers"
+                android:id="@+id/ac_zubrilka_lesson_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 6 "
+                android:layout_marginRight="10dp"
+                android:textSize="17sp"/>
+        <TextView
+                android:background="@drawable/lesson_bg"
+                android:tag="6"
+                android:textColor="@color/color_numbers"
+                android:id="@+id/ac_zubrilka_lesson_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 7 "
+                android:layout_marginRight="10dp"
+                android:textSize="17sp"/>
+        <TextView
+                android:background="@drawable/lesson_bg"
+                android:tag="7"
+                android:textColor="@color/color_numbers"
+                android:id="@+id/ac_zubrilka_lesson_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 8 "
+                android:layout_marginRight="10dp"
+                android:textSize="17sp"/>
+        <TextView
+                android:background="@drawable/lesson_bg"
+                android:tag="8"
+                android:textColor="@color/color_numbers"
+                android:id="@+id/ac_zubrilka_lesson_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 9 "
+                android:layout_marginRight="10dp"
+                android:textSize="17sp"/>
+        <TextView
+                android:background="@drawable/lesson_bg"
+                android:tag="9"
+                android:textColor="@color/color_numbers"
+                android:id="@+id/ac_zubrilka_lesson_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 10 "
+                android:textSize="17sp"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true"
+                  android:orientation="vertical"
+                  android:layout_centerHorizontal="true">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/learn"
+                android:textSize="10sp"
+                android:id="@+id/ac_zubrilka_learn"
+                android:textColor="@color/red_numbers"
+                android:layout_gravity="center"
+                />
+        <Button
+                android:id="@+id/ac_zubrilka_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_play"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="1dp"
+                android:layout_gravity="center"
+                />
+    </LinearLayout>
+
+    </RelativeLayout>

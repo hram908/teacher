@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/desc"
+                android:id="@+id/ll"
+        >
+
+
+
+    <!--<LinearLayout android:layout_height="wrap_content"  android:layout_width="wrap_content">-->
+
+    <!--<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="anim1" android:onClick="clickanim1"/>-->
+    <!--<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="anim2"  android:onClick="clickanim2"/>-->
+    <!--<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="anim3"  android:onClick="clickanim3"/>-->
+    <!--<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="anim4"  android:onClick="clickanim4"/>-->
+
+    <!--</LinearLayout>-->
+
+
+
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/ll_examples"
+            >
+        <!--<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical">-->
+        <!--<TextView  android:textSize="80" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="2 x 3 = 6"/>-->
+        <!--<TextView  android:textSize="80" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="6 x 5 = 63"/>-->
+        <!--<TextView  android:textSize="80" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="2 x 3 = 6"/>-->
+        <!--<TextView  android:textSize="80" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="2 x 3 = 6"/>-->
+        <!--<TextView  android:textSize="80" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="2 x 3 = 6"/>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical">-->
+            <!--<TextView  android:textSize="80" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="2 x 3 = 6"/>-->
+            <!--<TextView  android:textSize="80" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="6 x 5 = 63"/>-->
+            <!--<TextView  android:textSize="80" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="2 x 3 = 6"/>-->
+            <!--<TextView  android:textSize="80" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="2 x 3 = 6"/>-->
+            <!--<TextView  android:textSize="80" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="2 x 3 = 6"/>-->
+        <!--</LinearLayout>-->
+
+
+    </LinearLayout>
+
+
+
+
+    <Button android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/ac_start_lecture_start_stop"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_pause"
+            android:layout_margin="10dp"
+            android:onClick="clickStopTest"/>
+    <TextView android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/ac_start_lecture_tv_nuance"
+            android:layout_width="200dp"
+            android:layout_centerVertical="true"
+
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/white"
+             android:text="text"
+            android:layout_margin="10dp"/>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:orientation="horizontal"
+                  android:background="#33000000"
+                  android:visibility="visible"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/ac_start_lecture_menu"
+            >
+
+        <Button android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/button_menu"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:onClick="clickGoInMenu"/>
+
+        <View android:layout_height="1px"
+              android:layout_width="wrap_content"
+              android:layout_weight="1"/>
+
+        <Button android:layout_height="wrap_content"
+                android:id="@+id/ac_start_test_lectute_test"
+                android:layout_width="wrap_content"
+                android:background="@drawable/button_lection"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:onClick="clickStartLecture"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginRight="50dp"
+                  android:visibility="invisible"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentRight="true"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/im_ac_start_test_result_menu_bg"
+                  android:id="@+id/ac_start_lecture_result_menu">
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:id="@+id/ac_start_test_menu_result_number_test"
+                android:gravity="center"
+                android:text="Тест 4"
+                android:textColor="#003c01"
+                />
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/ac_start_test_menu_result_stars"
+                />
+
+    </LinearLayout>
+    <Button
+            android:id="@+id/ac_start_test_help_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="22dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="#d5a600"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:shadowColor="#433901"
+            android:background="@drawable/button_ac_start_test_quest_help"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="70dp"
+            android:visibility="invisible"
+            android:onClick="clickHelpQuest"
+            />
+    <Button
+            android:id="@+id/ac_start_test_help_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="22dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="#d5a600"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:shadowColor="#433901"
+            android:background="@drawable/button_ac_start_test_quest_help"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="43dp"
+            android:layout_marginRight="67dp"
+            android:visibility="invisible"
+            android:onClick="clickHelpQuest"
+            />
+    <Button
+            android:id="@+id/ac_start_test_help_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="22dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="#d5a600"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:shadowColor="#433901"
+            android:background="@drawable/button_ac_start_test_quest_help"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="124dp"
+            android:visibility="invisible"
+            android:onClick="clickHelpQuest"
+            />
+
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/org.taptwo.android.widget.viewflow.example"
+	android:orientation="vertical" android:layout_width="fill_parent"
+    android:background="@drawable/im_ac_main_teach_screen_bc"
+	android:layout_height="fill_parent">
+    <ImageView android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:layout_width="wrap_content"
+               android:layout_marginTop="10dp"
+               android:src="@drawable/im_ac_main_teach_screen_header"/>
+
+	<com.blacksheep.teacher.activites.mainScreen.CircleFlowIndicator
+		android:padding="10dip"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/viewflowindic"
+		android:layout_gravity="center_horizontal|bottom"
+
+		/>
+	<com.blacksheep.teacher.activites.mainScreen.ViewFlow
+		android:id="@+id/viewflow" android:layout_width="fill_parent"
+		android:layout_height="fill_parent"></com.blacksheep.teacher.activites.mainScreen.ViewFlow>
+
+</FrameLayout>

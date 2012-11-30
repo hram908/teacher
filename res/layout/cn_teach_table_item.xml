@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:background="#44FFFFFa"
+              android:layout_height="wrap_content">
+    <Button android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:background="@drawable/im_ac_main_teach_screen_main_6"
+            android:id="@+id/cn_teach_table_item_button"/>
+
+    <LinearLayout android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                 android:layout_alignBottom="@id/cn_teach_table_item_button"
+                  android:layout_centerHorizontal="true">
+        <ImageView android:layout_width="wrap_content"
+                   android:id="@+id/cn_teach_table_item_star1"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/im_ac_main_teach_screen_main_star"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:id="@+id/cn_teach_table_item_star2"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/im_ac_main_teach_screen_main_star"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:id="@+id/cn_teach_table_item_star3"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/im_ac_main_teach_screen_main_star"/>
+    </LinearLayout>
+
+</RelativeLayout>

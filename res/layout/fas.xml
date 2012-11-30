@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:orientation="vertical"
+              android:layout_height="fill_parent">
+    <Button android:layout_height="wrap_content" android:visibility="visible" android:layout_width="wrap_content"
+            android:text="StartTest" android:onClick="clickStartTest"/>
+    <EditText android:visibility="visible" android:text="9" android:layout_height="wrap_content" android:layout_width="wrap_content" android:hint="test number or count question" android:id="@+id/etTestNumber"/>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:text="StartExam 13" android:onClick="clickStartExam13"/>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:text="StartExam 21" android:onClick="clickStartExam21"/>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:text="StartExam 34" android:onClick="clickStartExam34"/>
+    <Button
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="SendPhoto" android:onClick="clickSend" />
+
+</LinearLayout>

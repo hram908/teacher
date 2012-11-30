@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:orientation="vertical"
+              android:layout_height="fill_parent">
+    <!--<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Экзамен" android:onClick="clickAcTest"/>-->
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Главный" android:onClick="clickAcMain"/>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Приветствие" android:onClick="clickAcLoadApp"/>
+    <!--<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Тестовая анимац" android:onClick="clickTestAnim"/>-->
+    <!--<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Загрузка ресурсов дебаг" android:onClick="clickLoadResDebug"/>-->
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Загрузка ресурсов" android:onClick="clickLoadRes"/>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="exam1" android:onClick="clickStartNotification"/>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="exam2" android:onClick="clickCloseNotification"/>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="exam3" android:onClick="clickStartNotificationCompleated"/>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Adminka" android:onClick="clickAdminka"/>
+    <!--<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="LoadAnim" android:onClick="clickGame"/>-->
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="GetAnim" android:onClick="clickGame1"/>
+    <!--<ListView android:id="@+id/list_lectures"-->
+              <!--android:layout_width="fill_parent"-->
+              <!--android:layout_height="wrap_content"/>-->
+
+
+
+</LinearLayout>

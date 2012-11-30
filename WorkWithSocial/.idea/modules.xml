@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/thest1-Android-VKontakte-SDK-1793891/AndroidVkSdk/AndroidVkSdk.iml" filepath="$PROJECT_DIR$/thest1-Android-VKontakte-SDK-1793891/AndroidVkSdk/AndroidVkSdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facebook/Facebook.iml" filepath="$PROJECT_DIR$/facebook/Facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thest1-LazyList-87f664d/Thest1-LazyList-87f664d.iml" filepath="$PROJECT_DIR$/thest1-LazyList-87f664d/Thest1-LazyList-87f664d.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WorkWithSocial.iml" filepath="$PROJECT_DIR$/WorkWithSocial.iml" />
+    </modules>
+  </component>
+</project>
+

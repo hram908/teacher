@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">teach</string>
+    <string name="err_not_internet_access">Отсутствует\n подключение к интернету!\n Пожалуйста, проверьте\n настройки устройства</string>
+    <string name="err_not_resource">Отсутствуют ресурсы!\n Пожалуйста, загрузите их\n для продолжения работы.</string>
+    <string name="request_name_message">Введи свое имя:</string>
+    <string name="settings_parent_email1">Родители, укажите ваш адрес\nэлектронной почты</string>
+    <string name="settings_parent_email2">Учитель будет унформировать \nвас об успехах вашего ребенка, \nа иногда просить вас немного \nпоиграть с нами</string>
+    <string name="settings_parent_social1">Подключите ваш аккаунт \nсоциальной сети.</string>
+    <string name="settings_parent_social2">Преподаватель делится с родителями \nполезными и интересными советами \nпо обучению и развитию детей \nшкольного возраста.</string>
+    <string name="e_mail">e-mail</string>
+    <string name="err_reset_game">Имя, результаты пройденных уроков и экзаменов\nбудут удалены.</string>
+
+</resources>

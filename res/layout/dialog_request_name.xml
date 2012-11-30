@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:background="@drawable/im_dialog_request_name_background">
+    <EditText
+            android:id="@+id/dialog_DialogRequestName_name"
+            android:layout_width="wrap_content"
+            android:hint="@string/request_name_message"
+            android:layout_height="wrap_content"
+            android:background="@drawable/im_dialog_request_name_text_field"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginBottom="15px"
+            android:paddingBottom="5dp"
+            android:gravity="center"/>
+            />
+    <Button
+            android:layout_marginTop="15px"
+            android:id="@+id/dialog_DialogRequestName_btOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/im_dialog_submit_button"
+            >
+    </Button>
+</LinearLayout>

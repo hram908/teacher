@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:background="@drawable/im_dialog_offline_internet_background"
+              android:orientation="vertical">
+    <ImageView
+            android:id="@+id/dialog_DialogOfflineIternet_alert_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/im_dialog_offline_internet_alert_icon"
+            android:gravity="center"/>
+    <TextView
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="20px"
+            android:id="@+id/dialog_DialogOfflineIternet_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/err_not_internet_access"
+            android:textSize="12dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center"/>
+    <Button
+
+            android:id="@+id/dialog_DialogOfflineInternet_btOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/im_dialog_submit_button"
+            >
+    </Button>
+</LinearLayout>

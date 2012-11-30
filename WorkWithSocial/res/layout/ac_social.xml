@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:orientation="vertical"
+              android:layout_height="fill_parent">
+    <Button android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="loginVk"
+            android:onClick="clickloginVk"/>
+    <Button android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="loginFb"
+            android:onClick="clickloginFb"/>
+    <Button android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="postMyWallVk"
+            android:onClick="clickpostMyWallVk"/>
+    <Button android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="postMyWallFb"
+            android:onClick="clickpostMyWallFb"/>
+    <Button android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="postFriendsWallVk"
+            android:onClick="clickpostFriendsWallVk"/>
+    <Button android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="postFriendsWallFb"
+            android:onClick="clickpostFriendsWallFb"/>
+    <Button android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="post"
+            android:onClick="clickPost"/>
+
+</LinearLayout>

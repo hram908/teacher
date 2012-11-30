@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:orientation="vertical"
+              android:layout_height="fill_parent">
+    <Button android:id="@+id/dialog_select_vk_wall"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="my wall"
+            />
+    <Button android:id="@+id/dialog_select_vk_friends"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="friends"
+            android:onClick="clickFriends"/>
+
+</LinearLayout>

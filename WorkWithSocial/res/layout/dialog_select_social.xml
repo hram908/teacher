@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_height="wrap_content">
+    <Button android:id="@+id/dialog_select_social_vk"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_ac_main_teach_screen_settings_vk"
+           />
+    <Button
+            android:layout_margin="10dp"
+            android:id="@+id/dialog_select_social_fb"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/button_ac_main_teach_screen_settings_fb"
+            />
+    <Button
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:id="@+id/dialog_select_social_other"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/button_ac_present_card_left_right"
+            android:text="Другое..."/>
+
+</LinearLayout>

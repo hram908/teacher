@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/org.taptwo.android.widget.viewflow.example"
+	android:orientation="vertical" android:layout_width="fill_parent"
+    android:background="@drawable/back_green"
+    android:id="@+id/ac_present_card_background"
+	android:layout_height="fill_parent">
+
+
+	<com.example.ViewFlow
+		android:id="@+id/viewflow"
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+        <!--android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"-->
+    </com.example.ViewFlow>
+    <ImageView android:layout_height="320dp"
+               android:layout_width="480dp"
+               android:id="@+id/ac_present_card_agnessa"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentBottom="true"
+            />
+    <LinearLayout android:layout_width="220dp"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:layout_height="wrap_content"
+                  android:layout_centerVertical="true"
+                  android:layout_alignParentRight="true"
+
+            >
+    <EditText android:layout_width="wrap_content"
+              android:layout_height="wrap_content" android:gravity="center_horizontal"
+              android:singleLine="false"
+              android:maxLength="60"
+              android:hint="Введите ваше сообщение"
+              android:textColor="#fffcf6"
+              android:textColorHint="#fffcf6"
+              android:id="@+id/ac_present_card_message"
+              android:textSize="20dp"
+              android:background="@android:color/transparent"
+              android:cacheColorHint="@android:color/transparent"
+              android:layout_marginLeft="10dip" android:layout_marginRight="10dip"
+            />
+    <LinearLayout android:layout_width="wrap_content"
+                  android:orientation="horizontal"
+                  android:gravity="center"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/ac_present_card_zoom_layout"
+
+            >
+        <Button android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:background="#33000000"
+                android:text="+"
+                android:id="@+id/ac_present_card_zoom_in"
+                android:textSize="20dp"
+                android:textColor="#fffcf6"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="60dp"
+                android:gravity="center"
+                android:onClick="clickZoomIn"/>
+        <View android:layout_height="1px"
+              android:layout_width="wrap_content"
+              android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+              android:layout_weight="1"/>
+        <Button android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:background="#33000000"
+                android:text="-"
+                android:textSize="20dp"
+                android:layout_marginRight="60dp"
+                android:textColor="#fffcf6"
+                android:id="@+id/ac_present_card_zoom_out"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:onClick="clickZoomOut"/>
+
+
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_alignParentTop="true"
+                  android:orientation="horizontal"
+                  android:gravity="center_vertical"
+                  android:background="#33000000"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/ac_present_card_top_layout"
+
+            >
+        <Button android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/im_ac_present_card_left_right"
+                android:textColor="#fffcf6"
+                android:text="Меню"
+                android:id="@+id/ac_present_card_main_menu"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="40dp"
+                android:paddingRight="2dp"
+                android:paddingLeft="2dp"
+                android:gravity="center"
+                android:onClick="clickMainMenu"/>
+        <View android:layout_height="1px"
+              android:layout_width="wrap_content"
+              android:layout_weight="1"/>
+        <Button android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/im_ac_present_card_left_right"
+                android:text="Отправить"
+                android:textSize="20dp"
+                android:textColor="#fffcf6"
+                android:id="@+id/ac_present_card_send"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:gravity="center"
+                android:onClick="clickSend"/>
+        <View android:layout_height="1px"
+              android:layout_width="wrap_content"
+              android:layout_weight="1"/>
+        <Button android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/im_ac_present_card_left_right"
+                android:text="X"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginRight="40dp"
+                android:paddingRight="2dp"
+                android:visibility="invisible"
+                android:paddingLeft="2dp"
+                android:gravity="center"
+                android:onClick="clickMainMenu"/>
+
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_alignParentBottom="true"
+                  android:orientation="horizontal"
+                  android:background="#33000000"
+                  android:layout_height="wrap_content"
+                  android:gravity="center_vertical"
+                  android:id="@+id/ac_present_card_bottom_layout"
+
+            >
+
+        <Button android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:id="@+id/ac_present_card_left_slide"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:textColor="#fffcf6"
+                android:background="@drawable/im_ac_present_card_left_right"
+                android:onClick="clickPrevious"/>
+
+        <View android:layout_height="1px"
+              android:layout_width="wrap_content"
+              android:layout_weight="1"/>
+        <RadioGroup android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:checkedButton="@+id/ac_settings_desk2">
+            <RadioButton android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:id="@+id/ac_present_card_desk1"
+                         android:button="@drawable/radiobutton_desk_yellow"/>
+            <RadioButton android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:id="@+id/ac_present_card_desk2"
+                         android:button="@drawable/radiobutton_desk_green"/>
+            <RadioButton android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:id="@+id/ac_present_card_desk3"
+                         android:button="@drawable/radiobutton_desk_red"/>
+            <RadioButton android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:id="@+id/ac_present_card_desk4"
+                         android:button="@drawable/radiobutton_desk_blue"/>
+            <RadioButton android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:id="@+id/ac_present_card_desk5"
+                         android:button="@drawable/radiobutton_desk_violet"/>
+        </RadioGroup>
+        <View android:layout_height="1px"
+              android:layout_width="wrap_content"
+              android:layout_weight="1"/>
+
+        <Button android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text=">"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:textColor="#fffcf6"
+                android:background="@drawable/im_ac_present_card_left_right"
+                android:id="@+id/ac_present_card_right_slide"
+                android:onClick="clickNext"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
